@@ -153,6 +153,7 @@ def main():
         "http": "http://192.168.110.27:7890",
         "https": "http://192.168.110.27:7890",
     }
+    proxy = {}
     size = 100
     page_count = 100
     with open('page.json', 'r', encoding='utf-8') as f:
