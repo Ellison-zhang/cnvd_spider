@@ -31,8 +31,8 @@ jobs:
         python main.py | tee /tmp/output.log
     - name: Commit and push if changed
       run: |
-        git config --global user.email "test"
-        git config --global user.name "test"
+        git config --global user.email "zhangshuai1027@gmail.com"
+        git config --global user.name "Ellison-zhang"
         git add .
         MESSAGE=$(cat /tmp/output.log)
         COMMIT_MESSAGE="Auto Updated:\n$MESSAGE"
