@@ -229,10 +229,10 @@ def parse_data(data):
     return data
 
 def main():
-    proxy = {
-        "http": "http://192.168.110.27:7890",
-        "https": "http://192.168.110.27:7890",
-    }
+    # proxy = {
+    #     "http": "http://192.168.110.27:7890",
+    #     "https": "http://192.168.110.27:7890",
+    # }
     cookies = {}
     page = 0
     size = 50
